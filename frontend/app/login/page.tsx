@@ -86,8 +86,8 @@ export default function LoginPage() {
         <title>{isRegisterMode ? 'Register' : 'Login'} - Mini Wallet</title>
       </Head>
       
-      <div className="min-h-screen flex items-center justify-center bg-dark-background text-text-light p-4 font-inter">
-        <div className="w-full max-w-md bg-gray-800 p-8 rounded-xl shadow-2xl border border-primary-emerald">
+      <div className="min-h-screen flex items-center justify-center bg-gray-900 text-text-light p-4 font-inter">
+        <div className="w-full max-w-md bg-gray-800 p-8 rounded-xl border-primary-emerald">
           <h2 className="text-3xl font-extrabold mb-8 text-center text-primary-emerald">
             Mini Wallet {isRegisterMode ? 'Register' : 'Login'}
           </h2>
