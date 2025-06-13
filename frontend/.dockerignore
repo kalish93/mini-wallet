@@ -24,6 +24,7 @@ build
 .vscode
 .idea
 
+
 # Other temp files
 npm-debug.log*
 yarn-error.log*
