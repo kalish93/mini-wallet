@@ -1,0 +1,29 @@
+# Node modules should NOT be copied (will be installed inside container)
+node_modules
+
+# Logs
+*.log
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+
+# Build output (if any)
+dist
+build
+.next
+
+# Environment files (optional, for security)
+.env
+
+# IDE/editor folders
+.vscode
+.idea
+
+# Other temp files
+npm-debug.log*
+yarn-error.log*
